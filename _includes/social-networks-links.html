@@ -17,12 +17,12 @@
 
   {%- if network[0] == "email" -%}
   <li class="list-inline-item">
-    <a href="mailto:{{ network[1] }}" title="Email me">
+    <a href="mailto:{{ network[1] }}" title="Email" target="_blank">
       <span class="fa-stack fa-lg" aria-hidden="true">
         <i class="fas fa-circle fa-stack-2x"></i>
         <i class="fas fa-envelope fa-stack-1x fa-inverse"></i>
       </span>
-      <span class="sr-only">Email me</span>
+      <span class="sr-only">Email</span>
    </a>
   </li>
   {%- endif -%}
@@ -113,7 +113,7 @@
 
   {%- if network[0] == "linkedin" -%}
   <li class="list-inline-item">
-    <a href="https://linkedin.com/in/{{ network[1] }}" title="LinkedIn">
+    <a href="https://linkedin.com/in/{{ network[1] }}" title="LinkedIn" target="_blank">
       <span class="fa-stack fa-lg" aria-hidden="true">
         <i class="fas fa-circle fa-stack-2x"></i>
         <i class="fab fa-linkedin fa-stack-1x fa-inverse"></i>
@@ -197,7 +197,7 @@
 
   {%- if network[0] == "telephone" -%}
   <li class="list-inline-item">
-    <a href="tel:{{ network[1] }}" title="Phone">
+    <a href="tel:{{ network[1] }}" title="Phone" target="_blank">
       <span class="fa-stack fa-lg" aria-hidden="true">
         <i class="fas fa-circle fa-stack-2x"></i>
         <i class="fas fa-phone fa-stack-1x fa-inverse"></i>
